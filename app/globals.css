@@ -151,9 +151,9 @@ button {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(90deg, #15221dc9, #15221d25 75%),
-    linear-gradient(0deg, #15221d80, transparent 55%);
+ background:
+  linear-gradient(90deg, #15221de6, #15221d35 75%),
+  linear-gradient(0deg, #15221d80, transparent 55%);
 }
 .hero-content {
   position: relative;
@@ -306,6 +306,7 @@ textarea:focus {
 .section-heading .eyebrow {
   margin-bottom: 0.70rem;
 }
+
 .dark-section h2,
 .contact-section h2 {
   margin: 0.5rem 0 0;
@@ -314,6 +315,9 @@ textarea:focus {
   font-weight: 400;
   line-height: 0.95;
   letter-spacing: -0.03em;
+}
+.dark-section h2 {
+  margin: 0.75rem 0 1.25rem;
 }
 .section-heading > p {
   max-width: 300px;
