@@ -247,7 +247,7 @@ button {
   border: 0;
   background: none;
   padding: 0 0 0.5rem;
-  color: var(--muted-foreground);
+  color: #625f58;
   font-size: 0.72rem;
 }
 .toggle .active {
@@ -265,10 +265,13 @@ label {
   display: flex;
   flex-direction: column;
   gap: 0.45rem;
-  color: var(--muted-foreground);
+  color: #625f58;
   font-size: 0.65rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+.search-section .eyebrow {
+  color: #625f58;
 }
 .search-fields input,
 .search-fields select,
