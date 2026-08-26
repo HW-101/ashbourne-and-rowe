@@ -155,6 +155,13 @@ button {
   linear-gradient(90deg, #15221de6, #15221d35 75%),
   linear-gradient(0deg, #15221d80, transparent 55%);
 }
+@media (max-width: 767px) {
+  .hero-overlay {
+    background:
+      linear-gradient(90deg, #15221df2, #15221d80 75%),
+      linear-gradient(0deg, #15221dbf, #15221d40 65%);
+  }
+}
 .hero-content {
   position: relative;
   z-index: 1;
