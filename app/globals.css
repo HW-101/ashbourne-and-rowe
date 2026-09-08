@@ -913,3 +913,15 @@ footer small {
   padding-left: 1rem;
 }
 }
+.detail-main > .eyebrow {
+  margin-bottom: 0.75rem;
+}
+
+.detail-main h2 {
+  margin-bottom: 1rem;
+}
+
+.detail-main > p:not(.eyebrow) {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
